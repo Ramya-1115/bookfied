@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 1rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: grey ;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    color: yellowgreen;
+}
+
+#navbarSupportedContent a{
+    color: #ffff;
+    padding: 15px;
+    border-bottom: 1px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #ffff
+}
+
+#navbarSupportedContent button{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***Home****/
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.6)), url(img3.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+#home h2{
+    font-size: 150px;
+    font-family: 'Lora', serif;
+    color: white;   
+}
+
+#home p{
+    font-size: 30px;
+    color: white;
+}
+
+#home .input-group{
+    width: 45%;
+    height: 40px;
+    
+}
+
+#home .signin{
+    background: yellowgreen;
+    color: whitesmoke;
+}
+
+/**About**/
+
+#about{
+    background-color: whitesmoke;
+
+}
+
+#about h1{
+    font-size: 50px;
+}
+
+#about p{
+    font-size: 17px;
+}
+
+/***BookS**/
+
+#book{
+    background: rgb(228, 222, 222);
+}
+
+#book h1{
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    letter-spacing: 5px;
+    color:rgb(205, 50, 115)
+}
+
+#book img{
+    width: 250px;
+    height: 250px;
+}
+
+#book .card{
+    width: 250px;
+    width: 250px;
+    border: none;
+    box-shadow: 15px 20px 20px,
+                inset 4px 4px 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 30px 60px;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+#book .signin{
+    background: yellowgreen;
+    color: whitesmoke;
+}
+
+#book .card:hover{
+    transition: .2s;
+    box-shadow: inset 5px 5px 10px,
+                inset -4px -4px 10px;
+}
+
+/***Contact***/
+
+#contact img{
+    height: 100%;
+    width: 95%;
+}
+
+#contact .box{
+    margin-top: 20px;
+    width: 80%;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input{
+    margin: 15px;
+}
+
+#contact textarea{
+    margin: 15px;
+}
+
+#contact .signin{
+    background: yellowgreen;
+    color: whitesmoke;
+    width: 30%;
+    margin: 15px;
+    margin-left: 160px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#contact h1{
+    color: yellowgreen;
+}
+
+/**footer**/
+
+footer{
+    text-align: center;
+    margin-top: -50px;
+}
